@@ -167,6 +167,7 @@ def demo(text=230, p=0, q=0):
     print(f'text: {decrypt(message, d, N)}')
     print('\n')
 
+
 def generate_encoding(p=0, q=0):
     """
     generiert einen öffentlichen und einen privaten Key zum verschlüsseln von Nachrichten
@@ -199,7 +200,7 @@ def generate_encoding(p=0, q=0):
 
 
 if __name__ == '__main__':
-    # verschlüsselt und Entschlüsselt einen Text und printed alle Zwischenergebnisse
+    # verschlüsselt und entschlüsselt einen Text und printed alle Zwischenergebnisse
     demo(230)
 
     e, d, N = generate_encoding()
