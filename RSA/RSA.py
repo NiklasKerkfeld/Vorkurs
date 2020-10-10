@@ -30,8 +30,8 @@ def generate_prim(scale):
 def teiler(x):
     """
     gibt Liste mit möglichen teiler einer Zahl
-    :param x:
-    :return:
+    :param x: Zahl
+    :return: Liste der Teiler
     """
     numbers = range(2, int(x // 2) + 1)
     t = []
